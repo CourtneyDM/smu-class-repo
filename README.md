@@ -36,15 +36,20 @@ You must give a full effort on every group and individual project.
 
 #### Class Videos
 
-All videos can be found using this [insert link here]
+Videos for each week will be made available in that week's Video Guide 
+
+[Week 1 Videos](02-lesson-plans/part-time/01-Week/VideoGuide.md)
 
 -----------------------------------------
 
 
 ## Important Links And Notes
 
+#### Slack Channels
+[M/W Full-Stack Web Slack Channel](https://smujan18cohort.slack.com/messages/C8WKRP3UM)
 
-[Slack Room insert link here]
+#### Student Guides
+[Week 1](02-lesson-plans/part-time/01-Week/StudentGuide.md)
 
 -----------------------------------------
 
