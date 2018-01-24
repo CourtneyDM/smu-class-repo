@@ -43,7 +43,7 @@ Videos for each week will be made available in that week's Video Guide
 ## Important Links And Notes
 
 #### Slack Channels
-[M/W Full-Stack Web Slack Channel](https://smujan18cohort.slack.com/messages/C8WKRP3UM)
+[Full-Stack Web Slack Channel (both sections)](https://smujan18cohort.slack.com/messages/C8WKRP3UM)
 
 #### Student Guides
 [Week 1](02-lesson-plans/part-time/01-Week/StudentGuide.md)
