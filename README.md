@@ -51,6 +51,12 @@ Videos for each week will be made available in that week's Video Guide
 #### Student Guides
 [Week 1](02-lesson-plans/part-time/01-Week/StudentGuide.md)
 
+#### Homework
+[Week 1](01-Class-Content/01-html-git-css/02-Homework)
+
+#### Activities
+[Week 1](01-Class-Content/01-html-git-css/01-Activities)
+
 -----------------------------------------
 
 
