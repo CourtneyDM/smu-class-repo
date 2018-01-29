@@ -35,7 +35,8 @@ You must give a full effort on every group and individual project.
 
 Videos for each week will be made available in that week's Video Guide 
 
-[Week 1 Videos](02-lesson-plans/part-time/01-Week/VideoGuide.md)
+[Week 1](02-lesson-plans/part-time/01-Week/VideoGuide.md)
+[Week 2](02-lesson-plans/part-time/02-Week/VideoGuide.md)
 
 -----------------------------------------
 
@@ -46,13 +47,16 @@ Videos for each week will be made available in that week's Video Guide
 [Full-Stack Web Slack Channel (both sections)](https://smujan18cohort.slack.com/messages/C8WKRP3UM)
 
 #### Student Guides
-[Week 1](02-lesson-plans/part-time/01-Week/StudentGuide.md)
+[Week 1](02-lesson-plans/part-time/01-Week/StudentGuide.md) | 
+[Week 2](02-lesson-plans/part-time/02-Week/StudentGuide.md)
 
 #### Homework
-[Week 1](01-Class-Content/01-html-git-css/02-Homework)
+[Week 1](01-Class-Content/01-html-git-css/02-Homework) | 
+[Week 2](01-Class-Content/02-css-bootstrap/02-Homework)
 
 #### Activities
-[Week 1](01-Class-Content/01-html-git-css/01-Activities)
+[Week 1](01-Class-Content/01-html-git-css/01-Activities) | 
+[Week 2](01-Class-Content/02-css-bootstrap/01-Activities)
 
 -----------------------------------------
 
