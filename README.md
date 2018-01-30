@@ -38,6 +38,10 @@ Class recordings are on panopto.com and organized into folders based on which se
 You can browse the top level folder (containing videos for BOTH sections) here:
 [Main Video Folder](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=78b66bce-e3ee-40e1-9180-edb24d8f411f)
 
+Or you can go straight to your section's folder:
+[Recordings made in the M/W section](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=a7182c05-2c8f-41ed-9d8a-a86d0112a6bb)
+
+[Recordings made in the T/R section](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=d623fb7f-c667-4636-b61d-a86b0027c690)
 
 #### Additional Videos (the video guides)
 Videos for each week will be made available in that week's Video Guide 
