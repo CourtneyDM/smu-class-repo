@@ -33,6 +33,13 @@ You must give a full effort on every group and individual project.
 
 #### Class Videos
 
+Class recordings are on panopto.com and organized into folders based on which section you are in.
+
+You can browse the top level folder (containing videos for BOTH sections) here:
+[Main Video Folder](https://codingbootcamp.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=78b66bce-e3ee-40e1-9180-edb24d8f411f)
+
+
+#### Additional Videos (the video guides)
 Videos for each week will be made available in that week's Video Guide 
 
 [Week 1](02-lesson-plans/part-time/01-Week/VideoGuide.md)
