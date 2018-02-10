@@ -1,13 +1,5 @@
 ## Unit 4 (Intro to jQuery) - Video Guide
 
-### Previous Week's Homework
-
-#### Homework #3 - Let's Build Hangman
-
-Live coded walkthrough (from scratch!) of the hangman game using HTML, Bootstrap CSS, and JavaScript. [Watch the Video!](https://youtu.be/cgdmOR15cn4)
-
-- - -
-
 ### Key Activities This Week
 
 #### Lesson 4.1 - jQuery Drink List
