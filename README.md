@@ -50,6 +50,9 @@ Videos for each week will be made available in that week's Video Guide
 [Week 1](02-lesson-plans/part-time/01-Week/VideoGuide.md)
 [Week 2](02-lesson-plans/part-time/02-Week/VideoGuide.md)
 [Week 3](02-lesson-plans/part-time/03-Week/VideoGuide.md)
+[Week 4](02-lesson-plans/part-time/04-Week/VideoGuide.md)
+[Week 5](02-lesson-plans/part-time/05-Week/VideoGuide.md)
+[Week 6](02-lesson-plans/part-time/06-Week/VideoGuide.md)
 
 -----------------------------------------
 
@@ -62,17 +65,26 @@ Videos for each week will be made available in that week's Video Guide
 #### Student Guides
 [Week 1](02-lesson-plans/part-time/01-Week/StudentGuide.md) | 
 [Week 2](02-lesson-plans/part-time/02-Week/StudentGuide.md) | 
-[Week 3](02-lesson-plans/part-time/03-Week/StudentGuide.md)
+[Week 3](02-lesson-plans/part-time/03-Week/StudentGuide.md) | 
+[Week 4](02-lesson-plans/part-time/04-Week/StudentGuide.md) | 
+[Week 5](02-lesson-plans/part-time/05-Week/StudentGuide.md) | 
+[Week 6](02-lesson-plans/part-time/06-Week/StudentGuide.md)
 
 #### Homework
 [Week 1](01-Class-Content/01-html-git-css/02-Homework) | 
 [Week 2](01-Class-Content/02-css-bootstrap/02-Homework) | 
-[Week 3](01-Class-Content/03-javascript/02-Homework)
+[Week 3](01-Class-Content/03-javascript/02-Homework) | 
+[Week 4](01-Class-Content/04-jquery/02-Homework) | 
+[Week 5](01-Class-Content/05-timers/02-Homework) | 
+[Week 6](01-Class-Content/06-ajax/02-Homework)
 
 #### Activities
 [Week 1](01-Class-Content/01-html-git-css/01-Activities) | 
 [Week 2](01-Class-Content/02-css-bootstrap/01-Activities) | 
-[Week 3](01-Class-Content/03-javascript/01-Activities)
+[Week 3](01-Class-Content/03-javascript/01-Activities) | 
+[Week 4](01-Class-Content/04-jquery/01-Activities) | 
+[Week 5](01-Class-Content/05-timers/01-Activities) | 
+[Week 6](01-Class-Content/06-ajax/01-Activities)
 
 -----------------------------------------
 
