@@ -1,12 +1,5 @@
 ## Unit 11 (Intro to Constructors and Callbacks) - Complete video guide
 
-### Last week's homework
-
-#### Homework #10 - Let's build LIRI Bot
-
-LIRI is a Language Interpretation and Recognition Interface - a command line node app that takes in parameters and gives you back data.
-[Watch the Video!](https://www.youtube.com/watch?v=1-k08YfQbec)
-
 ### Key activities from the week
 
 #### Lesson 11.1 - Character Create
