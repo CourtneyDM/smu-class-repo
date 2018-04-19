@@ -37,6 +37,7 @@
 
    TWITTER_CONSUMER_KEY=SZzsigw3iqE0pSADB
    TWITTER_CONSUMER_SECRET=AMw4tYFP7an0lIul49C21aS9fk2cWZTGS8XVE
+   
    TWITTER_ACCESS_TOKEN_KEY=2722037155-UARaU6pdJvvjerc1jKNuZXxpr
    TWITTER_ACCESS_TOKEN_SECRET=wnpv3qmcRgT4tBLvzFEnPAqU9ih2fKkLt
    ```
@@ -44,10 +45,10 @@
    * As long as we ran the code in step 2, we'd be able to access these values anywhere in our Node app using the `process.env` object. Example:
 
    ```js
-   // prints "SZzsigw3iqE0pSADB" to the console
+   // prints `SZzsigw3iqE0pSADB` to the console
    console.log(process.env.TWITTER_CONSUMER_KEY) 
 
-   // prints "AMw4tYFP7an0lIul49C21aS9fk2cWZTGS8XVE" to the console
+   // prints `AMw4tYFP7an0lIul49C21aS9fk2cWZTGS8XVE` to the console
    console.log(process.env.TWITTER_CONSUMER_SECRET)
    // etc.
    ```

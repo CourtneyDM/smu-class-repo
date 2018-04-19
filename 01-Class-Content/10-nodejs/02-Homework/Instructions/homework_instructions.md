@@ -14,7 +14,7 @@ In this assignment, you will make LIRI. LIRI is like iPhone's SIRI. However, whi
 
    * [Twitter](https://www.npmjs.com/package/twitter)
    
-   * [Spotify](https://www.npmjs.com/package/node-spotify-api)
+   * [Node-Spotify-API](https://www.npmjs.com/package/node-spotify-api)
    
    * [Request](https://www.npmjs.com/package/request)
 
@@ -122,17 +122,6 @@ require("dotenv").config();
 
     * `do-what-it-says`
 
-```
-├── .env
-├── keys.js
-├── liri.js
-├── liriBonus.js
-├── log.txt
-├── package-lock.json
-├── package.json
-└── random.txt
-```
-
 ### What Each Command Should Do
 
 1. `node liri.js my-tweets`
@@ -208,7 +197,7 @@ require("dotenv").config();
 
 ### Minimum Requirements
 
-Attempt to complete homework assignment as described in instructions. If unable to complete certain portions, please pseudocode these portions to describe what remains to be completed.
+Attempt to complete homework assignment as described in instructions. If unable to complete certain portions, please pseudocode these portions to describe what remains to be completed. Adding a README.md as well as adding this homework to your portfolio are required as well and more information can be found below.
 
 - - -
 

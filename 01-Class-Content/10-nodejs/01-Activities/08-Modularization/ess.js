@@ -5,13 +5,13 @@ var essentials = {
   friend: "facebook"
 };
 
-var nicetohaves = {
+var niceToHaves = {
   tools: ["can opener", "flashlight", "matches"],
   safety: ["first aid kit", "gloves"]
 };
 
 var nonessentials = {
-  cookware: "wafflemaker"
+  cookware: "waffleMaker"
 };
 
 // module.exports is essentially an object that we can add data or variables to
@@ -19,5 +19,5 @@ var nonessentials = {
 
 module.exports = {
   essentials: essentials,
-  nicetohaves: nicetohaves
+  niceToHaves: niceToHaves
 };

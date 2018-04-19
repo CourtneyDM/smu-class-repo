@@ -42,15 +42,15 @@ var askQuestion = function() {
         message: "What is your favorite programming language?"
       }
     ]).then(function(answers) {
-      // initializes the variable newguy to be a programmer object which will
+      // initializes the variable newProgrammer to be a programmer object which will
       // take in all of the user's answers to the questions above
-      var newGuy = new Programmer(
+      var newProgrammer = new Programmer(
         answers.name,
         answers.position,
         answers.age,
         answers.language);
-      // pushes newguy object into our array
-      programmerArray.push(newGuy);
+      // pushes newProgrammer object into our array
+      programmerArray.push(newProgrammer);
       // add one to count to increment our recursive loop by one
       count++;
       // run the askquestion function again so as to either end the loop or ask the questions again

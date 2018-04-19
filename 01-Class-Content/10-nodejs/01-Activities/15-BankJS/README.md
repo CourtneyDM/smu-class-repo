@@ -22,7 +22,7 @@
 
 ### Hints
 
-* Consider making a series of if-then or switch-case statements to identify the "type" of transaction and the "amount" involved (if relevant).
+* Consider making a series of if-else or switch-case statements to identify the "type" of transaction and the "amount" involved (if relevant).
 
 ### Bonuses
 

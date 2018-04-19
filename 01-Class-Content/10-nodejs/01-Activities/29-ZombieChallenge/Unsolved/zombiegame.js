@@ -11,6 +11,6 @@
 // The game ends when you or the zombie gets to 0 health. 
 
 // Note: You should use the inquirer package to take in user commands.
-// Major Warning: inquirer's prompt function is "asynchronous", which means that the majority of your game logic will need to be inside the .then() function for your propmt. 
+// Major Warning: inquirer's prompt function is "asynchronous", which means that the majority of your game logic will need to be inside the .then() function for your prompt. 
 
 // ===========================================================================================================

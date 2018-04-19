@@ -13,7 +13,7 @@ console.log("Essentials");
 console.log(stuffINeed.essentials);
 console.log("--------------------------");
 console.log("Nice to Haves");
-console.log(stuffINeed.nicetohaves);
+console.log(stuffINeed.niceToHaves);
 
 // This won't print anything because it wasn't exported in ess.js
 console.log("--------------------------");

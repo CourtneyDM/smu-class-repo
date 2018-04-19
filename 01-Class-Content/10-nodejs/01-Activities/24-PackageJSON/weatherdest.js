@@ -1,7 +1,7 @@
 // This application uses two different NPM packages to provide the complete address and weather information about any landmark (or location).
 // Ex: "node weatherdest Eiffel Tower" or "node weatherdest White House"
 
-// Mainly it combines the code from the last two activities with a bit more daata handling. (Study it on your own time if interested).
+// Mainly it combines the code from the last two activities with a bit more data handling. (Study it on your own time if interested).
 
 // =========================================================================================================================================
 
