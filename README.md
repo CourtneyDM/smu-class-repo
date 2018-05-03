@@ -58,6 +58,8 @@ Videos for each week will be made available in that week's Video Guide
 [Week 11](02-lesson-plans/part-time/11-Week/VideoGuide.md)
 [Week 12](02-lesson-plans/part-time/12-Week/VideoGuide.md)
 [Week 13](02-lesson-plans/part-time/13-Week/VideoGuide.md)
+[Week 14](02-lesson-plans/part-time/14-Week/VideoGuide.md)
+[Week 15](02-lesson-plans/part-time/15-Week/VideoGuide.md)
 
 -----------------------------------------
 
@@ -78,7 +80,9 @@ Videos for each week will be made available in that week's Video Guide
 [Week 10](02-lesson-plans/part-time/10-Week/StudentGuide.md) | 
 [Week 11](02-lesson-plans/part-time/11-Week/StudentGuide.md) | 
 [Week 12](02-lesson-plans/part-time/12-Week/StudentGuide.md) | 
-[Week 13](02-lesson-plans/part-time/13-Week/StudentGuide.md)
+[Week 13](02-lesson-plans/part-time/13-Week/StudentGuide.md) | 
+[Week 14](02-lesson-plans/part-time/14-Week/StudentGuide.md) | 
+[Week 15](02-lesson-plans/part-time/15-Week/StudentGuide.md)
 
 #### Homework
 [Week 1](01-Class-Content/01-html-git-css/02-Homework) | 
@@ -91,7 +95,9 @@ Videos for each week will be made available in that week's Video Guide
 [Week 10](01-Class-Content/10-nodejs/02-Homework) | 
 [Week 11](01-Class-Content/11-js-constructors/02-Homework) | 
 [Week 12](01-Class-Content/12-mysql/02-Homework) | 
-[Week 13](01-Class-Content/13-express/02-Homework)
+[Week 13](01-Class-Content/13-express/02-Homework) | 
+[Week 14](01-Class-Content/14-handlebars/02-Homework) | 
+[Week 15](01-Class-Content/15-sequelize/02-Homework)
 
 #### Activities
 [Week 1](01-Class-Content/01-html-git-css/01-Activities) | 
@@ -104,7 +110,9 @@ Videos for each week will be made available in that week's Video Guide
 [Week 10](01-Class-Content/10-nodejs/01-Activities) | 
 [Week 11](01-Class-Content/11-js-constructors/01-Activities) | 
 [Week 12](01-Class-Content/12-mysql/01-Activities) | 
-[Week 13](01-Class-Content/13-express/01-Activities)
+[Week 13](01-Class-Content/13-express/01-Activities) | 
+[Week 14](01-Class-Content/14-handlebars/01-Activities) | 
+[Week 15](01-Class-Content/15-sequelize/01-Activities)
 
 -----------------------------------------
 
