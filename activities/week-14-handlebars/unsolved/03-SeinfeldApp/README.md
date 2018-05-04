@@ -1,8 +1,8 @@
-* **Instructions**
+# Instructions
 
-  * Create a seinfeld_db database with an actors table.
+* Create a seinfeld_db database with an actors table.
 
-    * The actors table will have a column for id (PRIMARY KEY AUTO_INCREMENT int), name (varchar), coolness_points (int), and attitude (varchar).
+* The actors table will have a column for id (PRIMARY KEY AUTO_INCREMENT int), name (varchar), coolness_points (int), and attitude (varchar).
 
   * Add in four actors with different names, coolness_points, and attitudes.
 
