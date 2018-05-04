@@ -1,0 +1,51 @@
+.centered {
+	text-align: center;
+}
+
+#red {
+	color: red;
+}
+
+#blue {
+	color: blue;
+}
+
+#green {
+	color: green;
+}
+
+#big_font {
+	font-size: 24px;
+}
+
+#small_font {
+	font-size: 8px;
+}
+
+.bold_font {
+	font-weight: bold;
+}
+
+.font_style {
+	font-family: Arial;
+	font-style: italic;
+}
+
+.orange {
+	color: orange;
+}
+
+.styledFont {
+	color: green;
+	font-family: monospace;
+}
+
+#imageFont {
+	font-style: italic;
+}
+
+#styledImage {
+	border-width: .5em;
+	border-color: orange;
+	border-style: solid;
+}
