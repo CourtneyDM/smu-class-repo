@@ -9,7 +9,7 @@ To run this file, we do the following in our Terminal:
 3. Run "source schema.sql"
 
 */
-
+DROP DATABASE IF EXISTS task_saver_db;
 -- Create the database task_saver_db and specified it for use.
 CREATE DATABASE task_saver_db;
 USE task_saver_db;

@@ -1,6 +1,6 @@
-* **Files**
+# Files
 
-  * `07-HandlebarsAnimalsBase`
+* `07-HandlebarsAnimalsBase`
 
 * **Instructions**
 
