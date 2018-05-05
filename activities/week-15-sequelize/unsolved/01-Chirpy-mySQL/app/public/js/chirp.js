@@ -6,5 +6,12 @@
 
 // When the page loads, grab and display all of our chirps
 
+$.get("/api/all", (data) => {
+    for (let i = 0; i < data.length; i++) {
+
+    }
+});
+
+
 
 // When user chirps
