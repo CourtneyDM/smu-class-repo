@@ -1,6 +1,6 @@
-# Week 14 - Node, Express, and Handlebars
+## Week 14 - Node, Express, and Handlebars
 
-## Overview
+### Overview
 
 During this week's classes, we are going to start going over the semantic templating framework "Handlebars" and start linking MySQL databases to front-end applications.
 

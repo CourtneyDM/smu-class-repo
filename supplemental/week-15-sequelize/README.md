@@ -1,6 +1,6 @@
-# Week 15 - Sequelized
+## Week 15 - Sequelized
 
-## Overview
+### Overview
 
 In this week, we will introduce students to the Sequelize ORM.
 
