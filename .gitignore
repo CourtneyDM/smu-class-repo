@@ -1,4 +1,7 @@
-node_modules/
-.vscode
-.idea/
+.env
 .DS_Store
+.gitignore
+.idea/
+.vscode
+node_modules
+package-lock.json
