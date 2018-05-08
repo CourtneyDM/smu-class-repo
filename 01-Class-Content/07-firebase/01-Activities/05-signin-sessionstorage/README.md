@@ -6,4 +6,4 @@
 
 ## Instructions
 
-* Now reconfigure you're app to use session storage instead! (You should be following along with your instructor for this one.)
+* Now reconfigure your app to use session storage instead! (You should be following along with your instructor for this one.)

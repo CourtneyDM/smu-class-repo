@@ -7,7 +7,7 @@
   <title>More Properties!</title>
 
   <!-- Firebase Reference -->
-  <script src="https://www.gstatic.com/firebasejs/live/3.0/firebase.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase.js"></script>
 
 </head>
 
@@ -56,7 +56,7 @@
     var phone = "";
 
     // Click Button changes what is stored in firebase
-    $("#click-button").on("click", function() {
+    $("#click-button").on("click", function(event) {
       // Prevent the page from refreshing
       event.preventDefault();
 

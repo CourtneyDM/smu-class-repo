@@ -4,9 +4,9 @@
 
 ### Instructions
 
-* Starting from a blank HTML file, create an object with 10 questions. The object should be structured as follows:
-  `q1: ["QUESTION", "ANSWER"]`
-  `q2: ["QUESTION", "ANSWER"]`
+* Starting from a blank HTML file, create an array with 10 question objects. Each object in the array should be structured as follows: 
+
+  `{ q: "QUESTION", a: "ANSWER" }`
 
 * Then create code that will ask the user questions, one by one. The user must answer by hitting t (for true) or f (for false).
 

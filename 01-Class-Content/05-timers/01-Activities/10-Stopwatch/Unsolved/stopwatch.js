@@ -13,7 +13,7 @@ window.onload = function() {
 //  Variable that will hold our setInterval that runs the stopwatch
 var intervalId;
 
-//prevents the clock from being sped up unnecessarily
+// prevents the clock from being sped up unnecessarily
 var clockRunning = false;
 
 //  Our stopwatch object.
@@ -33,10 +33,10 @@ var stopwatch = {
 
   start: function() {
 
-      //  TODO: Use setInterval to start the count here and set the clock to running.
-      if (!clockRunning) {
+    //  TODO: Use setInterval to start the count here and set the clock to running.
+    if (!clockRunning) {
 
-      }
+    }
 
   },
   stop: function() {
@@ -47,12 +47,12 @@ var stopwatch = {
 
   recordLap: function() {
 
-      //  TODO: Get the current time, pass that into the stopwatch.timeConverter function,
-      //        and save the result in a variable.
+    //  TODO: Get the current time, pass that into the stopwatch.timeConverter function,
+    //        and save the result in a variable.
 
-      //  TODO: Add the current lap and time to the "laps" div.
+    //  TODO: Add the current lap and time to the "laps" div.
 
-      //  TODO: Increment lap by 1. Remember, we can't use "this" here.
+    //  TODO: Increment lap by 1. Remember, we can't use "this" here.
   },
   count: function() {
 

@@ -25,21 +25,21 @@
       })
 
       //
-      .then(function(response) {
+        .then(function(response) {
 
         //
-        var imageUrl = response.data.image_original_url;
+          var imageUrl = response.data.image_original_url;
 
-        //
-        var catImage = $("<img>");
+          //
+          var catImage = $("<img>");
 
-        //
-        catImage.attr("src", imageUrl);
-        catImage.attr("alt", "cat image");
+          //
+          catImage.attr("src", imageUrl);
+          catImage.attr("alt", "cat image");
 
-        //
-        $("#images").prepend(catImage);
-      });
+          //
+          $("#images").prepend(catImage);
+        });
     });
   </script>
 </body>

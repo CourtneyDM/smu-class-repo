@@ -2,7 +2,7 @@
 <html>
 <head>
   <title>simple crystal game</title>
-  
+
   <style type="text/css">
 
     .crystal-image {
@@ -28,7 +28,7 @@
 
   // Here we created a counter, we'll be using this to track the user's total.
   var counter = 0;
-  $(".crystal-image").on("click", function() {
+  $("#crystals").on("click", ".crystal-image", function() {
 
     // Each time the user clicks the crystal the counter goes up by 1.
     counter += 1;

@@ -1,6 +1,6 @@
 # :Pseudo-classes
 
-In this activity you'll use psuedo-classes to style elements based on their state.
+In this activity you'll use pseudo-classes to style elements based on their state.
 
 ## Instructions
 

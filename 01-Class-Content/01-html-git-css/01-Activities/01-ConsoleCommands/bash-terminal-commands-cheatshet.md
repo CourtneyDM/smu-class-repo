@@ -47,6 +47,14 @@ Press `tab` key once to autocomplete once you have typed a unique portion of a f
 
 `rm -r [name of directory to remove]`
 
+#### Copying File
+
+`cp [filename1] [filename2]`
+
+#### Move/Rename File
+
+`mv [filename1] [filename2]`
+
 ### Mac Only
 
 #### Open file or folder (Mac only)

@@ -14,7 +14,8 @@
   <title>Coding Bootcamp!</title>
 
   <!-- We link our html to the Bootstrap CDN -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 
@@ -24,60 +25,43 @@
   <div class="container">
 
     <!-- Section 1: Navbar-->
-    <nav class="navbar navbar-default">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
 
-      <!-- Place Fluid Container in Navbar -->
-      <div class="container-fluid">
+      <!-- Our brand / logo -->
+      <a class="navbar-brand" href="#">The Coding Bootcamp</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-        <!-- Designate a navbar heading -->
-        <div class="navbar-header">
+        <!-- Collapsible button -->
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ml-auto">
 
-          <!-- Collapsible button -->
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <!-- The links of our navbar -->
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
 
-              <!-- navbar button elements-->
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span> <!-- first line -->
-              <span class="icon-bar"></span> <!-- second line -->
-              <span class="icon-bar"></span> <!-- third line -->
+          <li class="nav-item">
+            <a class="nav-link" href="#">Features</a>
+          </li>
 
-            </button>
-          <!-- Our brand / logo -->
-          <a class="navbar-brand" href="#">The Coding Bootcamp</a>
-        </div>
+          <!-- a Dropdown menu -->
+          <li class="nav-item dropdown">
 
-        <!-- The links of our navbar -->
-        <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Dropdown
+            </a>
 
-            <!-- a Dropdown menu -->
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
-                <li role="separator" class="divider"></li>
-                <li class="dropdown-header">Nav header</li>
-                <li><a href="#">Separated link</a></li>
-                <li><a href="#">One more separated link</a></li>
-              </ul>
-            </li>
-          </ul>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
 
-          <!-- More links -->
-          <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a href="./">Default <span class="sr-only">(current)</span></a></li>
-            <li><a href="../navbar-static-top/">Static top</a></li>
-            <li><a href="../navbar-fixed-top/">Fixed top</a></li>
-          </ul>
-        </div>
-        <!--/.nav-collapse -->
+          </li>
+        </ul>
       </div>
-      <!--/.container-fluid -->
     </nav>
 
     <!-- Jumbotron element -->
@@ -91,7 +75,7 @@
       <!-- button with predefined style rules -->
       <p class="text-center">
         <a class="btn btn-primary btn-lg" href="#" role="button">
-          <span class="glyphicon glyphicon-envelope"></span> Learn more</a>
+          <span class="fa fa-envelope"></span> Learn more</a>
       </p>
     </div>
 
@@ -118,7 +102,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
   <!-- Bootstrap's javascript file that allows the dropdown menu to work  -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
 </body>
 

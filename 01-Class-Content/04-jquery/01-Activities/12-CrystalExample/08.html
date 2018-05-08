@@ -2,7 +2,7 @@
 <html>
 <head>
   <title>simple crystal game</title>
-  
+
   <style type="text/css">
 
     .crystal-image {
@@ -32,7 +32,7 @@
   $("#number-to-guess").text(targetNumber);
 
   var counter = 0;
-  $(".crystal-image").on("click", function() {
+  $("#crystals").on("click", ".crystal-image", function() {
 
     counter += 10;
 

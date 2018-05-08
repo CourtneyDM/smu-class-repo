@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>simple crystal game</title>
-  
+
   <style type="text/css">
 
     .crystal-image {
@@ -39,7 +39,7 @@
   var numberOptions = [10, 11];
   var increment = numberOptions[Math.round(Math.random())];
 
-  $(".crystal-image").on("click", function() {
+  $("#crystals").on("click", ".crystal-image", function() {
 
     // We'll then increment the counter each time by the randomly selected number.
     // If the number is 11, then users can win. (11 + 11 + 11 + 11 + 11 = 55)

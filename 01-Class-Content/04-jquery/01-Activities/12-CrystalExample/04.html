@@ -2,7 +2,7 @@
 <html>
 <head>
   <title>simple crystal game</title>
-  
+
   <style type="text/css">
 
     .crystal-image {
@@ -27,7 +27,7 @@
   <script type="text/javascript">
 
   // Here we created an on-click event that responds to button clicks of the crystal image.
-  $(".crystal-image").on("click", function() {
+  $("#crystals").on("click", ".crystal-image", function() {
 
     // Clicking the button triggers an alert message.
     alert("You clicked a crystal!");

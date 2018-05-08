@@ -8,6 +8,6 @@
 
 * Try to break it down into steps that you could code out.
 
-* Think of basic elements like loops, if-then statements, arrays, alerts, etc.
+* Think of basic elements like loops, if-else statements, arrays, alerts, etc.
 
 * Be prepared to share your outlines approach.
