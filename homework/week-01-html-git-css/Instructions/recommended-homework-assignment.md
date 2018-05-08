@@ -23,7 +23,7 @@ In this assignment, you'll build a professional portfolio site using HTML/CSS. T
    * Inside the assets directory, make two additional folders: `css` and `images`.
      * In the `css` folder, make a file called `style.css`.
      * In the `css` folder, make a file called `reset.css`, and include the code found from the Meyerweb reset located [here](http://meyerweb.com/eric/tools/css/reset/reset.css).
-     * In the `images` folder, save the images you plan on using (like your profile image, the placeholder images for the portfolio, and the social icon images).
+     * In the `images` folder, save the images you plan on using (like your profile image and the placeholder images for the portfolio).
 
 4. Push the above changes to GitHub. 
 
@@ -31,11 +31,11 @@ In this assignment, you'll build a professional portfolio site using HTML/CSS. T
 
 5. Reference these screenshots for your site:
 
-   ![Portfolio About](Images/Portfolio_About.png)
+   ![Portfolio About](Images/portfolio-about-me.png)
 
-   ![Portfolio Contact](Images/Portfolio_Contact.png)
+   ![Portfolio Contact](Images/portfolio-contact.png)
 
-   ![Portfolio Gallery](Images/Portfolio_Gallery.png)
+   ![Portfolio Gallery](Images/portfolio-gallery.png)
 
    * **IMPORTANT** Your site's layout must match the designs in these screenshots. You'll find the specs for these designs below. 
 
@@ -81,18 +81,11 @@ In this assignment, you'll build a professional portfolio site using HTML/CSS. T
    * Placeholder images can be found at [LoremPixel](http://lorempixel.com/). 
    * Save the images to your `images` folder.
 
-5. Social Link Images (Github, LinkedIn,  StackOverflow, etc.):
-   * These images can be found on [IconFinder](https://www.iconfinder.com/).
-   * Save the images to your `images` folder.
-   * Ensure that these icons are live links to your GitHub, LinkedIn, and Stack Overflow profiles.
-
-6. Background Images:
+5. Background Images:
    * The background pattern used was found on [Subtle Patterns](https://subtlepatterns.com/). You can browse through that site and find whichever pattern you like.
 
-7. Dimensions:
-   * The entire content area is `960px` wide.
-   * The main section content is `650px` wide.
-   * The sidebar is `270px` wide.
+6. Dimensions:
+   * The entire content and the main section content area is `960px` wide.
    * Pro-tip: Use the [Page Ruler](https://chrome.google.com/webstore/detail/page-ruler/jlpkojjdgbllmedoapgfodplfhcbnbpn/related?hl=en) extension to measure the size of elements.
 
    ![Recommended Dimensions](Images/Recommended-Dimensions.png)
@@ -104,8 +97,6 @@ In this assignment, you'll build a professional portfolio site using HTML/CSS. T
 2. You can use [Adobe Kuler](https://color.adobe.com/create/color-wheel/) to find colors that match the theme (in this case, the primary color is Teal `#4aaaa5`).
 
 3. Make a "sticky footer." You will notice the dark grey footer will always rest just below the content. This is fine whenever your site has enough content to push it down past the height of most monitors. But if there isn't much content in the body, the footer could rest in the middle of the page:
-   ![No sticky footer](Images/bonus_nosticky.jpg)
-   ![Has sticky footer](Images/bonus_stickyfooter.jpg)
    * Try to code the footer in a way that it will always remain at the bottom of the page, no matter how short the content is. A sticky footer tutorial can be found [here](https://css-tricks.com/couple-takes-sticky-footer/). 
 
 ### Helpful Hints
@@ -129,7 +120,3 @@ Attempt to complete homework assignment as described in instructions. If unable 
 If you have any questions about this project or the material we have covered, please post them in the community channels in slack so that your fellow developers can help you! If you're still having trouble, you can come to office hours for assistance from your instructor and TAs.
 
 **Good Luck!**
-
-## Copyright
-
-Coding Boot Camp © 2016. All Rights Reserved.

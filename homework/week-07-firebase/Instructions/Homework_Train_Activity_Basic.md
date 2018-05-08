@@ -10,7 +10,7 @@ In this assignment, you'll create a train schedule application that incorporates
 
 ### Setup
 
-* We'll leave that up to you -- however you like. Just make sure you're using Firebase to store data, GitHub to backup your project, and GithHub Pages to host your finished site.
+* We'll leave that up to you -- however you like. Just make sure you're using Firebase to store data, GitHub to backup your project, and GitHub Pages to host your finished site.
 
 ### Instructions
 
@@ -48,7 +48,7 @@ In this assignment, you'll create a train schedule application that incorporates
 
 ### Minimum Requirements
 
-Attempt to complete homework assignment as described in instructions. If unable to complete certain portions, please pseudocode these portions to describe what remains to be completed.
+Attempt to complete homework assignment as described in instructions. If unable to complete certain portions, please pseudocode these portions to describe what remains to be completed. Adding a README.md as well as adding this homework to your portfolio are required as well and more information can be found below.
 
 - - -
 

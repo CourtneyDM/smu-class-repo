@@ -2,7 +2,7 @@
 
 ## File
 
-* [`sortArray`](Unsolved/sortArray.js)
+* [`sortArray`](Unsolved/bubbleSort.js)
 
 ## Instructions
 

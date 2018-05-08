@@ -2,7 +2,7 @@
 
 // Initialize Firebase
 // Make sure to match the configuration to the script version number in the HTML
-// (Ex. 3.0 != 3.7.0)         
+// (Ex. 3.0 != 3.7.0)
 var config = {
   apiKey: "AIzaSyDxQqkGa3AKrcGmGVFalJe40g4hdzADf6w",
   authDomain: "coder-bay-views.firebaseapp.com",
@@ -78,14 +78,15 @@ database.ref("/bidderData").on("value", function(snapshot) {
 // --------------------------------------------------------------
 
 // Whenever a user clicks the submit-bid button
-$("#submit-bid").on("click", function() {
+$("#submit-bid").on("click", function(event) {
+  event.preventDefault();
 
   // Get the input values
   var bidderName = $("#bidder-name").val().trim();
   var bidderPrice = parseInt($("#bidder-price").val().trim());
 
   // Log to console the Bidder and Price (Even if not the highest)
-  
+
 
   if (bidderPrice > highPrice) {
 
@@ -110,14 +111,11 @@ $("#submit-bid").on("click", function() {
     // Change the HTML to reflect the new high price and bidder
     $("#highest-bidder").text(bidderName);
     $("#highest-price").text("$" + bidderPrice);
-    
+
   }
   else {
 
     // Alert
     alert("Sorry that bid is too low. Try again.");
   }
-
-  // Prevent default behavior
-  event.preventDefault();
 });

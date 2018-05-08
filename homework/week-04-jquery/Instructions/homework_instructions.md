@@ -6,11 +6,11 @@ In this assignment, you'll create another fun and interactive game for web brows
 
 ### Before You Begin
 
-1. Create a new GitHub repo called `week-4-game`, then clone it to your computer.
+1. Create a new GitHub repo called `unit-4-game`, then clone it to your computer.
 
-2. Inside the `week-4-game` folder, create an `index.html` file.
+2. Inside the `unit-4-game` folder, create an `index.html` file.
 
-3. Still inside the `week-4-game` directory, make a folder called `assets`.
+3. Still inside the `unit-4-game` directory, make a folder called `assets`.
    * Inside the `assets` directory, make three additional folders: `javascript`, `css` and `images`.
      * In the `javascript` folder, make a file called `game.js`.
      * In the `css` folder, make a file called `style.css`.
@@ -29,7 +29,7 @@ In this assignment, you'll create another fun and interactive game for web brows
 
 1. [Watch the demo](homework_demos/crystalsCollector_demo.mp4).
 
-2. The player will have to guess the answer, just like in Hangman. This time, though, the player will guess with numbers instead of letters. 
+2. The player will have to guess the answer, just like in Word Guess. This time, though, the player will guess with numbers instead of letters. 
 
 3. Here's how the app works:
 
@@ -106,7 +106,7 @@ In this assignment, you'll create another fun and interactive game for web brows
 
 ### Minimum Requirements
 
-Attempt to complete homework assignment as described in instructions. If unable to complete certain portions, please pseudocode these portions to describe what remains to be completed.
+Attempt to complete homework assignment as described in instructions. If unable to complete certain portions, please pseudocode these portions to describe what remains to be completed. Adding a README.md as well as adding this homework to your portfolio are required as well and more information can be found below.
 
 - - -
 

@@ -19,7 +19,7 @@ var address = "";
 for (var i = 2; i < nodeArgs.length; i++) {
 
   // Build a string with the address.
-  address = address + "" + nodeArgs[i];
+  address = address + " " + nodeArgs[i];
 
   debugger;
 

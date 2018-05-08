@@ -71,7 +71,7 @@
       document.onkeyup = function(event) {
 
         // Captures the key press, converts it to lowercase, and saves it to a variable.
-        var letter = String.fromCharCode(event.which).toLowerCase();
+        var letter = event.key.toLowerCase();
 
         // If the letter is h, run the following functions/methods.
         if (letter === "h") {

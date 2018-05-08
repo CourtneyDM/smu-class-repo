@@ -20,10 +20,10 @@
     $(document).ready(function() {
 
       // Here we use jQuery to select the header with "click-me" as its ID.
-      // Whenever it is clicked...
+      // Notice I have the #click-me, click, and then the function
+      // So $("id|class|element").on("action", function(){});
+      // And so whenever it is clicked...
       $("#click-me").on("click", function() {
-
-        // ... we trigger an alert.
         alert("I've been clicked!");
       });
 

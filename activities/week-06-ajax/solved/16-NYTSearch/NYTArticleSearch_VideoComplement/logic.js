@@ -1,124 +1,147 @@
-// SETUP VARIABLES
-// =========================================
-var authKey = "9d4a8986921972b65754ea0809d47c84:12:74623931";
+/**
+ * pulls information from the form and build the query URL
+ * @returns {string} URL for NYT API based on form inputs
+ */
+function buildQueryURL() {
+  // queryURL is the url we'll use to query the API
+  var queryURL = "https://api.nytimes.com/svc/search/v2/articlesearch.json?";
 
-// Search Parameters
-var queryTerm = "";
-var numResults = 0;
-var startYear = 0;
-var endYear = 0;
+  // Begin building an object to contain our API call's query parameters
+  // Set the API key
+  var queryParams = { "api-key": "b9f91d369ff59547cd47b931d8cbc56b:0:74623931" };
 
-// URL Base
-var queryURLBase = "https://api.nytimes.com/svc/search/v2/articlesearch.json?api-key=" + authKey;
+  // Grab text the user typed into the search input, add to the queryParams object
+  queryParams.q = $("#search-term")
+    .val()
+    .trim();
 
-// FUNCTIONS
-// =========================================
+  // If the user provides a startYear, include it in the queryParams object
+  var startYear = $("#start-year")
+    .val()
+    .trim();
 
-function runQuery(numArticles, queryURL) {
+  if (parseInt(startYear)) {
+    queryParams.begin_date = startYear + "0101";
+  }
 
-  // AJAX Function
+  // If the user provides an endYear, include it in the queryParams object
+  var endYear = $("#end-year")
+    .val()
+    .trim();
+
+  if (parseInt(endYear)) {
+    queryParams.end_date = endYear + "0101";
+  }
+
+  // Logging the URL so we have access to it for troubleshooting
+  console.log("---------------\nURL: " + queryURL + "\n---------------");
+  console.log(queryURL + $.param(queryParams));
+  return queryURL + $.param(queryParams);
+}
+
+/**
+ * takes API data (JSON/object) and turns it into elements on the page
+ * @param {object} NYTData - object containing NYT API data
+ */
+function updatePage(NYTData) {
+  // Get from the form the number of results to display
+  // API doesn't have a "limit" parameter, so we have to do this ourselves
+  var numArticles = $("#article-count").val();
+
+  // Log the NYTData to console, where it will show up as an object
+  console.log(NYTData);
+  console.log("------------------------------------");
+
+  // Loop through and build elements for the defined number of articles
+  for (var i = 0; i < numArticles; i++) {
+    // Get specific article info for current index
+    var article = NYTData.response.docs[i];
+
+    // Increase the articleCount (track article # - starting at 1)
+    var articleCount = i + 1;
+
+    // Create the  list group to contain the articles and add the article content for each
+    var $articleList = $("<ul>");
+    $articleList.addClass("list-group");
+
+    // Add the newly created element to the DOM
+    $("#article-section").append($articleList);
+
+    // If the article has a headline, log and append to $articleList
+    var headline = article.headline;
+    var $articleListItem = $("<li class='list-group-item articleHeadline'>");
+
+    if (headline && headline.main) {
+      console.log(headline.main);
+      $articleListItem.append(
+        "<span class='label label-primary'>" +
+          articleCount +
+          "</span>" +
+          "<strong> " +
+          headline.main +
+          "</strong>"
+      );
+    }
+
+    // If the article has a byline, log and append to $articleList
+    var byline = article.byline;
+
+    if (byline && byline.original) {
+      console.log(byline.original);
+      $articleListItem.append("<h5>" + byline.original + "</h5>");
+    }
+
+    // Log section, and append to document if exists
+    var section = article.section_name;
+    console.log(article.section_name);
+    if (section) {
+      $articleListItem.append("<h5>Section: " + section + "</h5>");
+    }
+
+    // Log published date, and append to document if exists
+    var pubDate = article.pub_date;
+    console.log(article.pub_date);
+    if (pubDate) {
+      $articleListItem.append("<h5>" + article.pub_date + "</h5>");
+    }
+
+    // Append and log url
+    $articleListItem.append("<a href='" + article.web_url + "'>" + article.web_url + "</a>");
+    console.log(article.web_url);
+
+    // Append the article
+    $articleList.append($articleListItem);
+  }
+}
+
+// Function to empty out the articles
+function clear() {
+  $("#article-section").empty();
+}
+
+// CLICK HANDLERS
+// ==========================================================
+
+// .on("click") function associated with the Search Button
+$("#run-search").on("click", function(event) {
+  // This line allows us to take advantage of the HTML "submit" property
+  // This way we can hit enter on the keyboard and it registers the search
+  // (in addition to clicks). Prevents the page from reloading on form submit.
+  event.preventDefault();
+
+  // Empty the region associated with the articles
+  clear();
+
+  // Build the query URL for the ajax request to the NYT API
+  var queryURL = buildQueryURL();
+
+  // Make the AJAX request to the API - GETs the JSON data at the queryURL.
+  // The data then gets passed as an argument to the updatePage function
   $.ajax({
     url: queryURL,
     method: "GET"
-  }).then(function(NYTData) {
-
-    // Logging to Console
-    console.log("------------------");
-    console.log(queryURL);
-    console.log("------------------");
-    console.log(numArticles);
-    console.log(NYTData);
-
-    // Clear the wells from the previous run
-    $("#well-section").empty();
-
-    for (var i = 0; i < numArticles; i++) {
-
-      // Start Dumping to HTML Here
-      var wellSection = $("<div>");
-      wellSection.addClass("well");
-      wellSection.attr("id", "article-well-" + i);
-      $("#well-section").append(wellSection);
-
-      // Check if things exist
-      if (NYTData.response.docs[i].headline !== "null") {
-        console.log(NYTData.response.docs[i].headline.main);
-        $("#article-well-" + i)
-          .append("<h3>" + NYTData.response.docs[i].headline.main + "</h3>");
-      }
-
-      // Check if the byline
-      if (NYTData.response.docs[i].byline && NYTData.response.docs[i].byline.original) {
-        console.log(NYTData.response.docs[i].byline.original);
-        $("#article-well-" + i).append("<h5>" + NYTData.response.docs[i].byline.original + "</h5>");
-      }
-
-      // Attach the content to the appropriate well
-      $("#article-well-" + i).append("<h5>" + NYTData.response.docs[i].section_name + "</h5>");
-      $("#article-well-" + i).append("<h5>" + NYTData.response.docs[i].pub_date + "</h5>");
-      $("#article-well-" + i)
-        .append(
-          "<a href=" + NYTData.response.docs[i].web_url + ">" +
-          NYTData.response.docs[i].web_url + "</a>"
-        );
-
-      console.log(NYTData.response.docs[i].section_name);
-      console.log(NYTData.response.docs[i].pub_date);
-      console.log(NYTData.response.docs[i].web_url);
-    }
-
-  });
-
-}
-
-// MAIN PROCESSES
-// =========================================
-
-$("#search-btn").on("click", function(event) {
-  // This line allows us to take advantage of the HTML "submit" property
-  // This way we can hit enter on the keyboard and it registers the search
-  // (in addition to clicks).
-  event.preventDefault();
-
-  // Get Search Term
-  queryTerm = $("#search").val().trim();
-
-  // Add in the Search Term
-  var newURL = queryURLBase + "&q=" + queryTerm;
-
-  // Get the Number of Records
-  numResults = $("#num-records").val();
-
-  // Get the Start Year and End Year
-  startYear = $("#start-year").val().trim();
-  endYear = $("#end-year").val().trim();
-
-  if (parseInt(startYear)) {
-
-    // Add the necessary fields
-    startYear += "0101";
-
-    // Add the date information to the URL
-    newURL = newURL + "&begin_date=" + startYear;
-  }
-
-  if (parseInt(endYear)) {
-
-    // Add the necessary fields
-    endYear += "0101";
-
-    // Add the date information to the URL
-    newURL = newURL + "&end_date=" + endYear;
-  }
-
-  // Send the AJAX Call the newly assembled URL
-  runQuery(numResults, newURL);
-
+  }).then(updatePage);
 });
 
-// 1. Retrieve user inputs and convert to variables
-// 2. Use those variable to run an AJAX call to the New York Times.
-// 3. Break down the NYT Object into useable fields
-// 4. Dynamically generate html content
-
-// 5. Dealing with "edge cases" -- bugs or situations that are not intuitive.
+//  .on("click") function associated with the clear button
+$("#clear-all").on("click", clear);

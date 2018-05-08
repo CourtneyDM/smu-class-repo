@@ -49,7 +49,7 @@ function palindromeDetector(s) {
 
   // Loops over the array of reversed words.
   for (var j = 0; j < reversedArray.length; j++) {
-    // Checks to see if a word is longer than one letter and checks the reversed word against the unreversed word.
+    // Checks to see if a word is longer than one letter and checks the reversed word against the non-reversed word.
     // (Using toLowerCase so it will ignore any capital letters).
     if (reversedArray[j].length > 1 && reversedArray[j].toLowerCase() === words[j].toLowerCase()) {
       // If its a palindrome, it wraps the word in a span to make it red, then pushes it to the showOnPage array.

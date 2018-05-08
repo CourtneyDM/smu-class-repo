@@ -35,28 +35,28 @@ In this assignment, you will build a web design skeleton using HTML/CSS. Your co
 1. Your HTML should have each of the following sections: 
    * Header
    * Nav
-   * Aside
-   * Section
-   * Article (With a Heading)
-   * Headers
-   * Paragraph
+   * Aside (With a Heading)
+   * Section (With a Heading)
+   * Article (With a Heading) contained within the Section
+   * Headers contained within the Article
+   * Paragraph contained within the Article 
 2. Your CSS should have styles for each of the following elements:
    * Body
-   * Header, nav, and footer
-   * Section
-   * Aside
+     * font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+     * color: '#777'
+     * background: '#777'
+     * width: '960px'
+     * font-size: '18px'
+   * Header, Nav, Section, Aside, and Footer
+     * background: '#ebebeb'
    * Article
-   * .clear
-   * Your text elements: h1, p, etc.
-3. The colors used in your final layout should be:
-   * Background: #777
-   * Content: #ebebeb
-4. The widths of each section should be:
-   * body: 960px
+     * color: '#ebebeb',
+     * background: '#777'
+   * h1 and p
+     * color: '#777',
+     * background: '#ebebeb'
+3. The widths of each section should be:
    * section: 495px
-5. The fonts used in the layout should be:
-   * font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-   * font-size: 18px
 
 ### Helpful Hints
 
@@ -75,9 +75,3 @@ Attempt to complete homework assignment as described in instructions. If unable 
 ### One More Thing
 
 If you have any questions about this project or the material we have covered, please post them in the community channels in slack so that your fellow developers can help you! If you're still having trouble, you can come to office hours for assistance from your instructor and TAs.
-
-**Good Luck!**
-
-## Copyright
-
-Coding Boot Camp © 2016. All Rights Reserved.

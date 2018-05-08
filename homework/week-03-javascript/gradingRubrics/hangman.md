@@ -1,6 +1,4 @@
-# Hangman
-
-![Hangman Meme](images/hangmanMeme.jpg)
+# Word Guess
 
 ### Statement of completion
 

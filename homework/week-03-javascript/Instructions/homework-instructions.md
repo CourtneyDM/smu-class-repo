@@ -2,11 +2,11 @@
 
 ### Overview
 
-In this assignment, you'll create one of two possible computer games: Hangman or Psychic. These apps will run in the browser, and feature dynamically updated HTML and CSS powered by your JavaScript code.
+In this assignment, you'll create one of two possible computer games: Word Guess or Psychic. These apps will run in the browser, and feature dynamically updated HTML and CSS powered by your JavaScript code.
 
 ### Before You Begin
 
-1. Create a new GitHub repo called `Hangman-Game` or `Psychic-Game`, in accordance with the assignment you choose to complete. Then, clone it to your computer.
+1. Create a new GitHub repo called `Word Guess Game` or `Psychic-Game`, in accordance with the assignment you choose to complete. Then, clone it to your computer.
 
 2. Inside your local git repository, create an `index.html`.
 
@@ -18,9 +18,19 @@ In this assignment, you'll create one of two possible computer games: Hangman or
    * Also in the `css` folder, make a file called `reset.css`. Paste into it the code from the Meyerweb reset stylesheet. If you opt to use Bootstrap instead of writing your own CSS, skip this step, and simply include a link to Bootstrap via CDN.
    * In the `images` folder, save whatever images you plan on using.
 
+```
+├── assets
+|  ├── css
+|  |  └── style.css
+|  ├── images
+|  └── javascript
+|     └── game.js
+└── index.html
+```
+
 5. Push the above changes to GitHub.
 
-6. Choose whichever game you'd like to build. Making the Psychic game will prove less challenging than coding Hangman. However, as the challenge of the Hangman exercise provides a more comprehensive review of this week's material, we suggest attempting that assignment first.
+6. Choose whichever game you'd like to build. Making the Psychic game will prove less challenging than coding Word Guess. However, as the challenge of the Word Guess exercise provides a more comprehensive review of this week's material, we suggest attempting that assignment first.
 
 7. Note: There's no shame if you'd prefer submitting Psychic—it's still a proper challenge.
 
@@ -49,9 +59,7 @@ In this assignment, you'll create one of two possible computer games: Hangman or
 
 9. When the player loses, increase the Losses counter and restart the game without a page refresh (just like when the user wins).
 
-## Option Two: Hangman Game (Challenge - Recommended)
-
-![Hangman](Images/2-Hangman.jpg)
+## Option Two: Word Guess Game (Challenge - Recommended)
 
 1. [Watch the demo](hangman-game-demo.mov).
 
@@ -75,7 +83,7 @@ In this assignment, you'll create one of two possible computer games: Hangman or
 
 9. After the user wins/loses the game should automatically choose another word and make the user play it.
 
-##### Hangman Game Bonuses
+##### Word Guess Game Bonuses
 
 1. Play a sound or song when the user guesses their word correctly, like in our demo.
 2. Write some stylish CSS rules to make a design that fits your game's theme.
@@ -103,7 +111,7 @@ In this assignment, you'll create one of two possible computer games: Hangman or
 
    * As a more advanced—but more powerful—alternative, feel free to experiment with the [Chrome DevTools Debugger](https://developers.google.com/web/tools/chrome-devtools/).
 
-4. Try your best to deliver a 'working/playable game' by the end of the deadline. If you're not making progress with Hangman, switch gears to the Psychic game. Contact your TA/Instructor if you're not making progress after 2 hours. We're here to help!
+4. Try your best to deliver a 'working/playable game' by the end of the deadline. If you're not making progress with Word Guess, switch gears to the Psychic game. Contact your TA/Instructor if you're not making progress after 2 hours. We're here to help!
 
 5. Substance over style! Submitting a working game matters more that making a broken app that at least looks pretty. We're focusing on game mechanics, not just on the look and feel of your app.
 6. That said, coding a functional app that also looks pretty would be impressive.
@@ -118,7 +126,7 @@ In this assignment, you'll create one of two possible computer games: Hangman or
 
 ### Minimum Requirements
 
-Attempt to complete homework assignment as described in instructions. If unable to complete certain portions, please pseudocode these portions to describe what remains to be completed.
+Attempt to complete homework assignment as described in instructions. If unable to complete certain portions, please pseudocode these portions to describe what remains to be completed. Adding a README.md as well as adding this homework to your portfolio are required as well and more information can be found below.
 
 - - -
 
