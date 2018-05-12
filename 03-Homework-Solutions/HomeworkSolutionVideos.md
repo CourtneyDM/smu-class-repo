@@ -84,7 +84,7 @@ Learn to build a full stack application using node, express, and a custom built 
 
 -------------------------------------------------------------------------------------------
 
-#### Homework #14 - Eat Da Burger - Video coming soon...
+#### Homework #14 - Eat Da Burger - [Watch the Video!](https://www.youtube.com/watch?v=pieNMQU3oDw)
 
 Create an Eat Da Burger application using MySQL, Express, and Node!
 
