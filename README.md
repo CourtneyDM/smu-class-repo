@@ -103,7 +103,8 @@ Videos for each week will be made available in that week's Video Guide
 [Week 12](01-Class-Content/12-mysql/02-Homework) | 
 [Week 13](01-Class-Content/13-express/02-Homework) | 
 [Week 14](01-Class-Content/14-handlebars/02-Homework) | 
-[Week 15](01-Class-Content/15-sequelize/02-Homework)
+[Week 15](01-Class-Content/15-sequelize/02-Homework) | 
+[Week 16](01-Class-Content/16-testing/02-Project-Requirements)
 
 #### Activities
 [Week 1](01-Class-Content/01-html-git-css/01-Activities) | 
@@ -120,7 +121,8 @@ Videos for each week will be made available in that week's Video Guide
 [Week 12](01-Class-Content/12-mysql/01-Activities) | 
 [Week 13](01-Class-Content/13-express/01-Activities) | 
 [Week 14](01-Class-Content/14-handlebars/01-Activities) | 
-[Week 15](01-Class-Content/15-sequelize/01-Activities)
+[Week 15](01-Class-Content/15-sequelize/01-Activities) | 
+[Week 16](01-Class-Content/16-testing/01-Activities)
 
 -----------------------------------------
 
