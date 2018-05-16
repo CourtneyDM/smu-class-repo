@@ -1,6 +1,6 @@
-## Week 16 - Introduction to Testing
+# Week 16 - Introduction to Testing
 
-### Overview
+## Overview
 
 This week's lesson will introduce students to the basic ideas and techniques behind testing. This is also a project week so classes will be split evenly between presentation of new material and independent work.
 
@@ -11,6 +11,7 @@ This week's lesson will introduce students to the basic ideas and techniques beh
 * [16.3 - Lesson Plan](03-Day/03-Day-LessonPlan.md)
 
 ### Project Resources
+
 Project-Resources/Slide-Shows
 
 * [Project Requirements - Slide Deck](Project-Resources/Slide-Shows)
