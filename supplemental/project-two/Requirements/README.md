@@ -2,7 +2,7 @@
 
 This document outlines the base requirements for Project 2.
 
-### Requirements
+## Requirements
 
 Your project must:
 
@@ -37,4 +37,3 @@ Your project _should_:
 * Use an existing public dataset to power the database
 
 * Create a migration strategy for sharing data across team members.
-

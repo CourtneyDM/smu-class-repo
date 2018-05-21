@@ -1,0 +1,9 @@
+How to keep track of the number of blogs on a page?
+- verify that at least one blog exists on the page, or
+- give an arbitrary number to check against (n). if the check is less than n but greater than 1 then return success
+
+How to keep track of the number of blog posts a blog contains?
+- use an aribtrary number as total number of pages
+
+How to track the number of posts on a page?
+- 

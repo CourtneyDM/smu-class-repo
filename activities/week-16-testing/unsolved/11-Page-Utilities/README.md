@@ -12,6 +12,6 @@
 
 * Before implementing any of this functionality, develop a test suite with your partner describing the desired behaviors.
 
-### Hints 
+### Hints
 
 * You'll have to come up with method names too. Write some code that uses the object you're about to create. What seem like natural choices for the object and for its methods' names?

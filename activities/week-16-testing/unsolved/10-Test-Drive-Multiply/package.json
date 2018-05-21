@@ -1,0 +1,12 @@
+{
+  "name": "10-Test-Drive-Multiply",
+  "version": "1.0.0",
+  "description": "In this activity we will write tests for the `multiply` function we worked with previously, and use Karma to watch our code as it is changed.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
