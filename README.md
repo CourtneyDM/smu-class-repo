@@ -66,6 +66,9 @@ Videos for each week will be made available in that week's Video Guide
 [Week 14](02-lesson-plans/part-time/14-Week/VideoGuide.md) | 
 [Week 15](02-lesson-plans/part-time/15-Week/VideoGuide.md)
 
+
+[Week 18](02-lesson-plans/part-time/18-Week/VideoGuide.md)
+
 -----------------------------------------
 
 
@@ -91,6 +94,10 @@ Videos for each week will be made available in that week's Video Guide
 [Week 14](02-lesson-plans/part-time/14-Week/StudentGuide.md) | 
 [Week 15](02-lesson-plans/part-time/15-Week/StudentGuide.md)
 
+
+[Week 17](02-lesson-plans/part-time/17-Week/StudentGuide.md) | 
+[Week 18](02-lesson-plans/part-time/18-Week/StudentGuide.md)
+
 #### Homework
 [Week 1](01-Class-Content/01-html-git-css/02-Homework) | 
 [Week 2](01-Class-Content/02-css-bootstrap/02-Homework) | 
@@ -109,6 +116,10 @@ Videos for each week will be made available in that week's Video Guide
 [Week 15](01-Class-Content/15-sequelize/02-Homework) | 
 [Week 16](01-Class-Content/16-testing/02-Project-Requirements)
 
+
+[Week 17](01-Class-Content/17-portfolio-update/01-Homework) | 
+[Week 18](01-Class-Content/18-mongo-mongoose/02-Homework)
+
 #### Activities
 [Week 1](01-Class-Content/01-html-git-css/01-Activities) | 
 [Week 2](01-Class-Content/02-css-bootstrap/01-Activities) | 
@@ -126,6 +137,9 @@ Videos for each week will be made available in that week's Video Guide
 [Week 14](01-Class-Content/14-handlebars/01-Activities) | 
 [Week 15](01-Class-Content/15-sequelize/01-Activities) | 
 [Week 16](01-Class-Content/16-testing/01-Activities)
+
+
+[Week 18](01-Class-Content/18-mongo-mongoose/01-Activities)
 
 -----------------------------------------
 
