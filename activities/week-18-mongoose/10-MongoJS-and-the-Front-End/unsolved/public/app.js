@@ -19,10 +19,34 @@
 // We'll be rewriting the table's data frequently, so let's make our code more DRY
 // by writing a function that takes in data (JSON) and creates a table body
 function displayResults(data) {
-  // Add to the table here...
+    // Add to the table here...
+    let tr = document.createElement("tr");
+    let td = document.createElement("td");
+
+    data.forEach(item => {
+        td.append(item.name);
+    });
+
+    $("tbody").append(tr).append(td);
 }
 
-$.getJSON("/all", function(data) {
-  // Call our function to generate a table body
-  displayResults(data);
+$.getJSON("/all", function (data) {
+    // Call our function to generate a table body
+    displayResults(data);
 });
+
+$("#weight-sort").on("click", () => {
+    $.getJSON("/weight", (data) => {
+        // Call our function to generate a table body
+        displayResults(data);
+    });
+});
+
+
+$("#name-sort").on("click", () => {
+    $.getJSON("/name", (data) => {
+        // Call our function to generate a table body
+        displayResults(data);
+    });
+});
+
