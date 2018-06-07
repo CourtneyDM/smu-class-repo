@@ -6,9 +6,7 @@ This repository contains all of the in-class activities introduced during the Ja
 
 ### Unsolved Directory
 
-<<<<<<< HEAD
 This directory contains all of the activities introduced in class...WITHOUT solutions. The purposes of this directory is to review the in-class material and practice the topics that may have been harder to understand during the time it was introduced.
-=======
 
 ## Minimum Requirements
 
@@ -181,7 +179,6 @@ Please see bootcampspot-v2.com
 | TBD | Graduation Event                          | 11 | In class                           |                                                                                                                              | 
 
 -----------------------------------------
->>>>>>> d8d95516f07555f9881f11a22c75567dbce9d39c
 
 
 ### Solved Directory
