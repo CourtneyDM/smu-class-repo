@@ -32,13 +32,30 @@ function displayResults(data) {
 
 $.getJSON("/all", function (data) {
     // Call our function to generate a table body
-    displayResults(data);
+    console.log(data);
+
+    data.forEach(result => {
+        $("#results").append(`<tr><td>${result.name}</td>` +
+            `<td>${result.numLegs}</td>` +
+            `<td>${result.class}</td>` +
+            `<td>${result.weight}</td>` +
+            `<td>${result.whatWouldIReallyCallIt}</td></tr>`);
+    });
 });
 
 $("#weight-sort").on("click", () => {
     $.getJSON("/weight", (data) => {
+        $("tbody").empty();
+        console.log(data);
         // Call our function to generate a table body
-        displayResults(data);
+        data.forEach(result => {
+            $("#results").append(`<tr><td>${result.name}</td>` +
+                `<td>${result.numLegs}</td>` +
+                `<td>${result.class}</td>` +
+                `<td>${result.weight}</td>` +
+                `<td>${result.whatWouldIReallyCallIt}</td></tr>`);
+        });
+
     });
 });
 
@@ -46,7 +63,15 @@ $("#weight-sort").on("click", () => {
 $("#name-sort").on("click", () => {
     $.getJSON("/name", (data) => {
         // Call our function to generate a table body
-        displayResults(data);
+        $("tbody").empty();
+        console.log(data);
+        data.forEach(result => {
+            $("#results").append(`<tr><td>${result.name}</td>` +
+                `<td>${result.numLegs}</td>` +
+                `<td>${result.class}</td>` +
+                `<td>${result.weight}</td>` +
+                `<td>${result.whatWouldIReallyCallIt}</td></tr>`);
+        });
     });
 });
 
