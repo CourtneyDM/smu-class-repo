@@ -19,59 +19,10 @@
 // We'll be rewriting the table's data frequently, so let's make our code more DRY
 // by writing a function that takes in data (JSON) and creates a table body
 function displayResults(data) {
-    // Add to the table here...
-    let tr = document.createElement("tr");
-    let td = document.createElement("td");
-
-    data.forEach(item => {
-        td.append(item.name);
-    });
-
-    $("tbody").append(tr).append(td);
+  // Add to the table here...
 }
 
-$.getJSON("/all", function (data) {
-    // Call our function to generate a table body
-    console.log(data);
-
-    data.forEach(result => {
-        $("#results").append(`<tr><td>${result.name}</td>` +
-            `<td>${result.numLegs}</td>` +
-            `<td>${result.class}</td>` +
-            `<td>${result.weight}</td>` +
-            `<td>${result.whatWouldIReallyCallIt}</td></tr>`);
-    });
+$.getJSON("/all", function(data) {
+  // Call our function to generate a table body
+  displayResults(data);
 });
-
-$("#weight-sort").on("click", () => {
-    $.getJSON("/weight", (data) => {
-        $("tbody").empty();
-        console.log(data);
-        // Call our function to generate a table body
-        data.forEach(result => {
-            $("#results").append(`<tr><td>${result.name}</td>` +
-                `<td>${result.numLegs}</td>` +
-                `<td>${result.class}</td>` +
-                `<td>${result.weight}</td>` +
-                `<td>${result.whatWouldIReallyCallIt}</td></tr>`);
-        });
-
-    });
-});
-
-
-$("#name-sort").on("click", () => {
-    $.getJSON("/name", (data) => {
-        // Call our function to generate a table body
-        $("tbody").empty();
-        console.log(data);
-        data.forEach(result => {
-            $("#results").append(`<tr><td>${result.name}</td>` +
-                `<td>${result.numLegs}</td>` +
-                `<td>${result.class}</td>` +
-                `<td>${result.weight}</td>` +
-                `<td>${result.whatWouldIReallyCallIt}</td></tr>`);
-        });
-    });
-});
-
