@@ -12,7 +12,7 @@ Our end goal is to log the following information about each failed launch: the y
 
 To find those failures, we're going to have to use the [SpaceX API](https://api.spacexdata.com/v2/launches). Once we have that data, we're going to narrow it down to the specific vehicle we're looking for, and then further narrow it down to those launches which were failures.
 
-#### Part 1: Convert the data to Launch objects
+### Part 1: Convert the data to Launch objects
 
 Open [index.js](Unsolved/index.js) and run the file by running `babel-node index.js`.
 
@@ -33,6 +33,7 @@ It should also have the following methods:
 
 1. `wasFailure` - returns `false` if the launch succeeded, `true` otherwise
 2. `launchInfo` - returns a string representation of the launch year, launch number, and launch details. For example:
+
 ```
 2016 - Flight No. 16
     This flight was a total disaster.
@@ -49,6 +50,7 @@ Note: We should use object destructuring in our class constructor to pull data f
 Now that we have our array of Launches, we'll want to use the convenience method we built into the class earlier (`wasFailure`) to narrow our array down to only those launches which failed.
 
 #### Part 3: Explain our findings
+
 Now that we have an array of Launch objects of the vehicle we're looking for which we know failed, we can print information about each launch! You can use the `launchInfo` method we created earlier to do so.
 
 Your final output should look something like:
