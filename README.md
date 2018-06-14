@@ -66,7 +66,8 @@ Videos for each week will be made available in that week's Video Guide
 
 
 [Week 18](02-lesson-plans/part-time/18-Week/VideoGuide.md) | 
-[Week 19](02-lesson-plans/part-time/19-Week/VideoGuide.md)
+[Week 19](02-lesson-plans/part-time/19-Week/VideoGuide.md) | 
+[Week 20](02-lesson-plans/part-time/20-Week/VideoGuide.md)
 
 -----------------------------------------
 
@@ -96,7 +97,8 @@ Videos for each week will be made available in that week's Video Guide
 
 [Week 17](02-lesson-plans/part-time/17-Week/StudentGuide.md) | 
 [Week 18](02-lesson-plans/part-time/18-Week/StudentGuide.md) | 
-[Week 19](02-lesson-plans/part-time/19-Week/StudentGuide.md)
+[Week 19](02-lesson-plans/part-time/19-Week/StudentGuide.md) | 
+[Week 19](02-lesson-plans/part-time/20-Week/StudentGuide.md)
 
 #### Homework
 [Week 1](01-Class-Content/01-html-git-css/02-Homework) | 
@@ -119,7 +121,8 @@ Videos for each week will be made available in that week's Video Guide
 
 [Week 17](01-Class-Content/17-portfolio-update/01-Homework) | 
 [Week 18](01-Class-Content/18-mongo-mongoose/02-Homework) | 
-[Week 19](01-Class-Content/19-react/02-Homework)
+[Week 19](01-Class-Content/19-react/02-Homework) | 
+[Week 19](01-Class-Content/20-react/02-Homework)
 
 #### Activities
 [Week 1](01-Class-Content/01-html-git-css/01-Activities) | 
@@ -141,7 +144,8 @@ Videos for each week will be made available in that week's Video Guide
 
 
 [Week 18](01-Class-Content/18-mongo-mongoose/01-Activities) | 
-[Week 19](01-Class-Content/19-react/01-Activities)
+[Week 19](01-Class-Content/19-react/01-Activities) | 
+[Week 19](01-Class-Content/20-react/01-Activities)
 
 -----------------------------------------
 
