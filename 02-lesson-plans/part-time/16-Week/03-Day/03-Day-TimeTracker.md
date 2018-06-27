@@ -1,0 +1,12 @@
+| Lesson Plan 16.3 - Time Tracker |        |                                                       |      |          |                                                                                 |
+| ------------------------------- | ------ | ----------------------------------------------------- | ---- | -------- | ------------------------------------------------------------------------------- |
+|                                 | Number | Activity                                              | Time | Value    | Notes                                                                           |
+| 10:00 AM                        | 1      | Instructor Do: Testing Workflows                      | 0:10 |          | High or Critical Activities:                                                    |
+| 10:10 AM                        | 2      | Students Do: Test-Drive multiply                      | 0:10 |          | Are worth spending extra moments on in class and/or may be pivotal to homework. |
+| 10:20 AM                        | 3      | Partners Do: Test-Drive PageUtilities                 | 0:30 | HIGH     |                                                                                 |
+| 10:50 AM                        | 4      | Instructor Do: Review Activity                        | 0:10 |          |                                                                                 |
+| 11:00 AM                        | 5      | Partners Do: Test-Drive format_name                   | 0:30 | HIGH     |                                                                                 |
+| 11:30 PM                        | 6      | Instructor Do: Review Activity                        | 0:05 |          |                                                                                 |
+| 11:35 AM                        | 7      | BREAK                                                 | 0:40 |          |                                                                                 |
+| 12:15 PM                        | 8      | Students Do: Work on projects                         | 1:45 |          |                                                                                 |
+| 2:00 PM                         | 9      | END                                                   |      |          |                                                                                 |
