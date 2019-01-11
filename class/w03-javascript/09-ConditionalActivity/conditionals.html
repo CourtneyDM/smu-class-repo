@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Conditionals</title>
+    </head>
+
+    <body>
+        <span id='output'></span>
+        <span id='legal'></span>
+
+        <script type='text/javascript'>
+            let carnivoire = prompt( 'Do you like steak?' );
+            console.log( carnivoire );
+
+            if ( carnivoire === 'yes' ) {
+                document.getElementById( 'output' ).textContent = 'Here\'s a Steak Sandwich!';
+            }
+            else {
+                document.getElementById( 'output' ).textContent = 'Here\'s a Tofu Stir-Fry!';
+            }
+
+
+
+            let canDrink = function () {
+                console.log( 'boom' );
+                let birthYear = prompt( 'What is your birth year?' );
+                if ( ( 2018 - birthYear ) >= 21 ) {
+                    document.getElementById( 'legal' ).textContent = "Have some sake!";
+                }
+                else {
+                    alert( 'No Sake for you!' );
+                }
+            }
+        </script>
+
+    </body>
+
+</html>

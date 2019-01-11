@@ -1,8 +1,8 @@
-### File
+# Conditionals
 
 * *None*
 
-### Instructions
+## Instructions
 
 * Create a website (from scratch) that asks users if they eat steak.
 

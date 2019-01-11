@@ -1,8 +1,8 @@
-### File
+# PromptSushu
 
 * [`prompt-sushi`](Unsolved/prompt-sushi.html)
 
-### Instructions
+## Instructions
 
 * Write JavaScript code that does the following:
   * Using a confirm, ask the user, "Do you like \_?" Store their response in a variable.

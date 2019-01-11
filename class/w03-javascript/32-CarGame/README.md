@@ -1,8 +1,8 @@
-### File
+# CarGame
 
 * _None_
 
-### Instructions
+## Instructions
 
 * Using the code from the previous activity as a starting point, create a complete application that meets the following specifications:
 

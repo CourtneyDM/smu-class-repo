@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Pizza Variables - Unsolved</title>
+    </head>
+
+    <body>
+        <div id='name'></div>
+        <div id='pizzaCount'></div>
+        <div id='totalCost'></div>
+        <div id='isHungry'></div>
+
+        <script type="text/javascript">
+
+            // Instructions:
+            // Create 3 variables. One called: "name", one called "pizzaCount", and one called "isHungry".
+            // The name variable should be set to your name.
+            // The pizzaCount variable should be set to a number.
+            // The isHungry variable should be set to true or false.
+
+            // FILL IN YOUR CODE HERE
+            // =============================================
+
+            let name, pizzaCount, isHungry;
+            name = 'Courtney';
+            pizzaCount = 4;
+            isHungry = true;
+
+            // ==============================================
+
+
+            // Don't touch this code :-)
+            var totalCost = pizzaCount * 5.00;
+
+            // alert( "Welcome: " + name );
+            let myName = document.getElementById( 'name' ).textContent = `Welcome ${name}!`;
+
+            // alert( "Pizzas cost $5 each" );
+            let text = document.getElementById( 'pizzaCount' ).textContent = `Pizzas cost $5.00 each.`;
+
+            // alert( "Your total is: $" + totalCost );
+            let cost = document.getElementById( 'totalCost' ).textContent = `Your total is: $${totalCost}`;
+
+            // alert( "Still Hungry: " + isHungry );
+            let hungry = document.getElementById( 'isHungry' ).textContent = `Still hungry?: ${isHungry}`;
+
+        </script>
+    </body>
+
+</html>
